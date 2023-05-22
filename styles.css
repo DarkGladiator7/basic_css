@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+.top {
+  height: 450px;
+  background-color: #1f2937;
+  
+  
+}
+
+.nav {
+  justify-content: space-around;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+.nav1 {
+  justify-content: space-around;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  padding-left: 1000px;
+}
+
+.nav > .logo {
+  font-family: "Righteous";
+  font-size: 24px;
+  color: white;
+  padding-top: 7px;
+}
+
+.nav1 .link {
+  padding-top: 10px;
+  padding-left: 0px;
+  font-family: "Righteous";
+  font-size: 15px;
+
+  color: white;
+}
+
+.butty {
+  background-color: lightblue;
+  display: block;
+  margin: 0;
+  font-family: Righteous;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.butty:hover {
+  background-color: rgb(221, 221, 221);
+}
